@@ -1,0 +1,38 @@
+@charset "utf-8";
+* {	box-sizing: border-box}
+
+body {
+	font-family: Gotham,"Helvetica Neue",Helvetica, Arial,"san-serif";
+	font-size: 16px;
+	margin: 0;
+}
+header{height: 70px;line-height: 70px;background-color: black;position:fixed;width: 100%; top:0; z-index: 100}
+.menu ul{padding:0;margin:0;list-style:none;display: flex}
+.menu ul li a{padding: 0 20px;display: block; color:white}
+.menu ul li a:hover{color:#E85512}
+#home{min-height: 600px; background:red; color:white}
+#thongtin{min-height: 600px; background:url("../images/hero-bg.jpg"); background-repeat: no-repeat; background-size: cover;}
+.thongtin{
+	width: 100%;
+	min-height: 400px;
+	background: rgba(0,0,0,0.5);
+	padding: 15px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+.thongtin p{font-weight: 300; font-size: 24px}
+
+#hocvan{min-height: 600px; background:#030303; color:white}
+h1{font-size: 36px}
+
+
+#kinhnghiem{min-height: 600px; background:white;}
+#thuvien{min-height: 600px; background:green; color:white}
+#lienhe{min-height: 600px; background:red; color:white}
+#lienhe input{margin: 10px; padding: 10px; width: 100%}
+#lienhe textarea{margin: 10px; padding: 10px; width: 100%; min-height: 200px}
+.pt-30{padding-top:30px}
+.img-30{width: 30%; height:auto}
+.thuvien{width: 100%; height: auto; margin: 10px}
+
